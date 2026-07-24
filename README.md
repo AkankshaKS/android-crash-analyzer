@@ -16,9 +16,18 @@ Tech
 
 Getting started
 1. Clone the repo
-2. Open in Android Studio
-3. Configure Firebase project credentials in local.properties or via environment variables
-4. Build and run
+2. Open the project in Android Studio
+3. Ensure the Android SDK and JDK 17 are installed
+4. Configure Firebase project credentials in local.properties or via environment variables
+5. Build and run
+
+Project structure
+- app/src/main/kotlin: Android app entry point and UI code
+- app/src/main/res: layouts, resources, and theme assets
+- app/build.gradle.kts: Android app module configuration
+
+Verification
+- The base project scaffold was validated with Gradle using: `gradle -q help`
 
 Contributing
 - Open issues for bugs and feature requests
